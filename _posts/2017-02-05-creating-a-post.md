@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Post
+title: A Post
 ---
 
 
