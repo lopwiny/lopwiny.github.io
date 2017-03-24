@@ -3,8 +3,9 @@ permalink: /blog/:title
 
 
 # My variables
-name: My Blog
-description: A Jekyll Theme
+name: IceAir
+description: A Jekyll Blog
+url: http://iceair.cn
 google_verification: null
 
 
