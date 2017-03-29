@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <!--[if lte IE 8]><link rel="stylesheet" href="https://dev.zhangxf.com/responsive-nav.css"><![endif]--><!--[if gt IE 8]><!--><link rel="stylesheet" href="https://dev.zhangxf.com/styles.css"><!--<![endif]-->
+    <script src="https://dev.zhangxf.com/responsive-nav.js"></script>
+    
+    
     {% if page.title %}
         <title>{{ page.title }}</title>
     {% else %}
@@ -26,6 +30,8 @@ href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
 
 <body>
 
+    <div role="navigation" id="foo" class="nav-collapse"><ul><li><a href="http://wave.ren">首页</a></li><li><a href="http://green.wave.ren">不可方物</a></li><li><a href="http://oaksoft.cn">橡树网</a></li><li><a href="http://hszh.wave.ren">红十字会</a></li><li><a href="https://o.wave.ren">云</a></li><li><a href="http://note.wave.ren">笔记</a></li><li class="active"><a href="https://dev.wave.ren">下载</a></li><li><a href="http://mail.wave.ren">邮局</a></li>  <li><a href="mailto:admin@oaksoft.cn">联系我</a></li></ul></div><div role="main" class="main"><a href="#nav" class="nav-toggle">Menu</a>
+    
     <div class="wrapper">
         {{ content }}
     </div>
